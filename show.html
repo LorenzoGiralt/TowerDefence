@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TD ALPHA</title>
+</head>
+<style>
+    html,body,canvas {
+        padding:0px;
+        margin:0px;
+        box-sizing: border-box;
+    }
+    #div {
+        margin:0px;
+        display:flex;
+    }
+    p {
+        margin:0px;
+    }
+
+    input {
+        position:absolute;
+        bottom:40%;
+        left:40%;
+    }
+    #show {
+        position:absolute;
+        bottom:32%;
+        left:34%;
+        font-size: 25px;
+    }
+</style>
+<body>
+    <div id="div">
+<p id="inner">Score: </p> <p id="score"> 0</p></div>
+<input type="button" value="+" id="gains"></input>
+<p id="show"></p>
+</body>
+<script src="animation.js"></script>
+<script src="classCharacter.js"></script>
+<script src="towerDefence.js"></script>
+</html>
